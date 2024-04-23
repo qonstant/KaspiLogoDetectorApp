@@ -37,8 +37,9 @@ I have trained CoreML model. Collected 63 images and labeled every single one of
 \
 Users can upload their images for object detection. The app will predict and show its confidence level below.
 
-![IMG_1476](https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/7e68da5d-8126-4b96-8151-42f43fcb55ec){:height="50%" width="50%"}
-![IMG_1477](https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/1fa8ab6d-2b40-435a-925d-1b0ae2d828eb){:height="50%" width="50%"}
+\
+<img src="https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/7e68da5d-8126-4b96-8151-42f43fcb55ec" width="50%" height="50%">
+<img src="https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/1fa8ab6d-2b40-435a-925d-1b0ae2d828eb" width="50%" height="50%">
 
 
 ### &#9745; Third requirement: 
@@ -49,8 +50,6 @@ Users can upload their images for object detection. The app will predict and sho
 I have created a button with a link to the email, thanks to which users can send new data for training the model. Since it's not possible to realize transfer learning in this case, we will have to train the model from the beginning, and it will take a couple of hours.
 
 \
-![IMG_1478](https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/9a303299-5ec7-4522-8816-f8b8f39f9830){:height="50%" width="50%"}
-![IMG_1479](https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/01ed1513-fbf7-4051-8cb5-eaabee0c2bb9){:height="50%" width="50%"}
-
-
+<img src="https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/9a303299-5ec7-4522-8816-f8b8f39f9830" width="50%" height="50%">
+<img src="https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/01ed1513-fbf7-4051-8cb5-eaabee0c2bb9" width="50%" height="50%">
 
