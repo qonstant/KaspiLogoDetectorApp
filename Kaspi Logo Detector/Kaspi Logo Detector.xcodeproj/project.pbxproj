@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8EDFF22BD8142B00ED15E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8EDFF12BD8142B00ED15E6 /* AppDelegate.swift */; };
+		0B8EDFF42BD8142B00ED15E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8EDFF32BD8142B00ED15E6 /* SceneDelegate.swift */; };
+		0B8EDFF62BD8142B00ED15E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8EDFF52BD8142B00ED15E6 /* ViewController.swift */; };
+		0B8EDFF92BD8142B00ED15E6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0B8EDFF82BD8142B00ED15E6 /* Base */; };
+		0B8EDFFB2BD8142C00ED15E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8EDFFA2BD8142C00ED15E6 /* Assets.xcassets */; };
+		0B8EDFFE2BD8142C00ED15E6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0B8EDFFD2BD8142C00ED15E6 /* Base */; };
+		0B8EE0092BD8142C00ED15E6 /* Kaspi_Logo_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8EE0082BD8142C00ED15E6 /* Kaspi_Logo_DetectorTests.swift */; };
+		0B8EE0132BD8142C00ED15E6 /* Kaspi_Logo_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8EE0122BD8142C00ED15E6 /* Kaspi_Logo_DetectorUITests.swift */; };
+		0B8EE0152BD8142C00ED15E6 /* Kaspi_Logo_DetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8EE0142BD8142C00ED15E6 /* Kaspi_Logo_DetectorUITestsLaunchTests.swift */; };
+		0B8EE0222BD8164200ED15E6 /* Kaspi Logo Detector 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B8EE0212BD8164200ED15E6 /* Kaspi Logo Detector 1.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B8EE0052BD8142C00ED15E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B8EDFE62BD8142B00ED15E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B8EDFED2BD8142B00ED15E6;
+			remoteInfo = "Kaspi Logo Detector";
+		};
+		0B8EE00F2BD8142C00ED15E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B8EDFE62BD8142B00ED15E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B8EDFED2BD8142B00ED15E6;
+			remoteInfo = "Kaspi Logo Detector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B8EDFEE2BD8142B00ED15E6 /* Kaspi Logo Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kaspi Logo Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8EDFF12BD8142B00ED15E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B8EDFF32BD8142B00ED15E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0B8EDFF52BD8142B00ED15E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B8EDFF82BD8142B00ED15E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B8EDFFA2BD8142C00ED15E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B8EDFFD2BD8142C00ED15E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B8EDFFF2BD8142C00ED15E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8EE0042BD8142C00ED15E6 /* Kaspi Logo DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kaspi Logo DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8EE0082BD8142C00ED15E6 /* Kaspi_Logo_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaspi_Logo_DetectorTests.swift; sourceTree = "<group>"; };
+		0B8EE00E2BD8142C00ED15E6 /* Kaspi Logo DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kaspi Logo DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8EE0122BD8142C00ED15E6 /* Kaspi_Logo_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaspi_Logo_DetectorUITests.swift; sourceTree = "<group>"; };
+		0B8EE0142BD8142C00ED15E6 /* Kaspi_Logo_DetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaspi_Logo_DetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B8EE0212BD8164200ED15E6 /* Kaspi Logo Detector 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Kaspi Logo Detector 1.mlmodel"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B8EDFEB2BD8142B00ED15E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8EE0012BD8142C00ED15E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8EE00B2BD8142C00ED15E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B8EDFE52BD8142B00ED15E6 = {
+			isa = PBXGroup;
+			children = (
+				0B8EDFF02BD8142B00ED15E6 /* Kaspi Logo Detector */,
+				0B8EE0072BD8142C00ED15E6 /* Kaspi Logo DetectorTests */,
+				0B8EE0112BD8142C00ED15E6 /* Kaspi Logo DetectorUITests */,
+				0B8EDFEF2BD8142B00ED15E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B8EDFEF2BD8142B00ED15E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B8EDFEE2BD8142B00ED15E6 /* Kaspi Logo Detector.app */,
+				0B8EE0042BD8142C00ED15E6 /* Kaspi Logo DetectorTests.xctest */,
+				0B8EE00E2BD8142C00ED15E6 /* Kaspi Logo DetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B8EDFF02BD8142B00ED15E6 /* Kaspi Logo Detector */ = {
+			isa = PBXGroup;
+			children = (
+				0B8EDFF12BD8142B00ED15E6 /* AppDelegate.swift */,
+				0B8EDFF32BD8142B00ED15E6 /* SceneDelegate.swift */,
+				0B8EDFF52BD8142B00ED15E6 /* ViewController.swift */,
+				0B8EDFF72BD8142B00ED15E6 /* Main.storyboard */,
+				0B8EDFFA2BD8142C00ED15E6 /* Assets.xcassets */,
+				0B8EDFFC2BD8142C00ED15E6 /* LaunchScreen.storyboard */,
+				0B8EDFFF2BD8142C00ED15E6 /* Info.plist */,
+			);
+			path = "Kaspi Logo Detector";
+			sourceTree = "<group>";
+		};
+		0B8EE0072BD8142C00ED15E6 /* Kaspi Logo DetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B8EE0082BD8142C00ED15E6 /* Kaspi_Logo_DetectorTests.swift */,
+			);
+			path = "Kaspi Logo DetectorTests";
+			sourceTree = "<group>";
+		};
+		0B8EE0112BD8142C00ED15E6 /* Kaspi Logo DetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B8EE0212BD8164200ED15E6 /* Kaspi Logo Detector 1.mlmodel */,
+				0B8EE0122BD8142C00ED15E6 /* Kaspi_Logo_DetectorUITests.swift */,
+				0B8EE0142BD8142C00ED15E6 /* Kaspi_Logo_DetectorUITestsLaunchTests.swift */,
+			);
+			path = "Kaspi Logo DetectorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B8EDFED2BD8142B00ED15E6 /* Kaspi Logo Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8EE0182BD8142C00ED15E6 /* Build configuration list for PBXNativeTarget "Kaspi Logo Detector" */;
+			buildPhases = (
+				0B8EDFEA2BD8142B00ED15E6 /* Sources */,
+				0B8EDFEB2BD8142B00ED15E6 /* Frameworks */,
+				0B8EDFEC2BD8142B00ED15E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kaspi Logo Detector";
+			productName = "Kaspi Logo Detector";
+			productReference = 0B8EDFEE2BD8142B00ED15E6 /* Kaspi Logo Detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B8EE0032BD8142C00ED15E6 /* Kaspi Logo DetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8EE01B2BD8142C00ED15E6 /* Build configuration list for PBXNativeTarget "Kaspi Logo DetectorTests" */;
+			buildPhases = (
+				0B8EE0002BD8142C00ED15E6 /* Sources */,
+				0B8EE0012BD8142C00ED15E6 /* Frameworks */,
+				0B8EE0022BD8142C00ED15E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B8EE0062BD8142C00ED15E6 /* PBXTargetDependency */,
+			);
+			name = "Kaspi Logo DetectorTests";
+			productName = "Kaspi Logo DetectorTests";
+			productReference = 0B8EE0042BD8142C00ED15E6 /* Kaspi Logo DetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B8EE00D2BD8142C00ED15E6 /* Kaspi Logo DetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8EE01E2BD8142C00ED15E6 /* Build configuration list for PBXNativeTarget "Kaspi Logo DetectorUITests" */;
+			buildPhases = (
+				0B8EE00A2BD8142C00ED15E6 /* Sources */,
+				0B8EE00B2BD8142C00ED15E6 /* Frameworks */,
+				0B8EE00C2BD8142C00ED15E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B8EE0102BD8142C00ED15E6 /* PBXTargetDependency */,
+			);
+			name = "Kaspi Logo DetectorUITests";
+			productName = "Kaspi Logo DetectorUITests";
+			productReference = 0B8EE00E2BD8142C00ED15E6 /* Kaspi Logo DetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B8EDFE62BD8142B00ED15E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					0B8EDFED2BD8142B00ED15E6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0B8EE0032BD8142C00ED15E6 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0B8EDFED2BD8142B00ED15E6;
+					};
+					0B8EE00D2BD8142C00ED15E6 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0B8EDFED2BD8142B00ED15E6;
+					};
+				};
+			};
+			buildConfigurationList = 0B8EDFE92BD8142B00ED15E6 /* Build configuration list for PBXProject "Kaspi Logo Detector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B8EDFE52BD8142B00ED15E6;
+			productRefGroup = 0B8EDFEF2BD8142B00ED15E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B8EDFED2BD8142B00ED15E6 /* Kaspi Logo Detector */,
+				0B8EE0032BD8142C00ED15E6 /* Kaspi Logo DetectorTests */,
+				0B8EE00D2BD8142C00ED15E6 /* Kaspi Logo DetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B8EDFEC2BD8142B00ED15E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8EDFFB2BD8142C00ED15E6 /* Assets.xcassets in Resources */,
+				0B8EDFFE2BD8142C00ED15E6 /* Base in Resources */,
+				0B8EDFF92BD8142B00ED15E6 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8EE0022BD8142C00ED15E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8EE00C2BD8142C00ED15E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B8EDFEA2BD8142B00ED15E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8EDFF62BD8142B00ED15E6 /* ViewController.swift in Sources */,
+				0B8EE0222BD8164200ED15E6 /* Kaspi Logo Detector 1.mlmodel in Sources */,
+				0B8EDFF22BD8142B00ED15E6 /* AppDelegate.swift in Sources */,
+				0B8EDFF42BD8142B00ED15E6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8EE0002BD8142C00ED15E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8EE0092BD8142C00ED15E6 /* Kaspi_Logo_DetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8EE00A2BD8142C00ED15E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8EE0152BD8142C00ED15E6 /* Kaspi_Logo_DetectorUITestsLaunchTests.swift in Sources */,
+				0B8EE0132BD8142C00ED15E6 /* Kaspi_Logo_DetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B8EE0062BD8142C00ED15E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B8EDFED2BD8142B00ED15E6 /* Kaspi Logo Detector */;
+			targetProxy = 0B8EE0052BD8142C00ED15E6 /* PBXContainerItemProxy */;
+		};
+		0B8EE0102BD8142C00ED15E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B8EDFED2BD8142B00ED15E6 /* Kaspi Logo Detector */;
+			targetProxy = 0B8EE00F2BD8142C00ED15E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B8EDFF72BD8142B00ED15E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B8EDFF82BD8142B00ED15E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B8EDFFC2BD8142C00ED15E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B8EDFFD2BD8142C00ED15E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B8EE0162BD8142C00ED15E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B8EE0172BD8142C00ED15E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B8EE0192BD8142C00ED15E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A97L3UKSA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kaspi Logo Detector/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-qonstant.Kaspi-Logo-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B8EE01A2BD8142C00ED15E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A97L3UKSA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kaspi Logo Detector/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-qonstant.Kaspi-Logo-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B8EE01C2BD8142C00ED15E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A97L3UKSA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-qonstant.Kaspi-Logo-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaspi Logo Detector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kaspi Logo Detector";
+			};
+			name = Debug;
+		};
+		0B8EE01D2BD8142C00ED15E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A97L3UKSA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-qonstant.Kaspi-Logo-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaspi Logo Detector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kaspi Logo Detector";
+			};
+			name = Release;
+		};
+		0B8EE01F2BD8142C00ED15E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A97L3UKSA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-qonstant.Kaspi-Logo-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kaspi Logo Detector";
+			};
+			name = Debug;
+		};
+		0B8EE0202BD8142C00ED15E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A97L3UKSA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-qonstant.Kaspi-Logo-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kaspi Logo Detector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B8EDFE92BD8142B00ED15E6 /* Build configuration list for PBXProject "Kaspi Logo Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8EE0162BD8142C00ED15E6 /* Debug */,
+				0B8EE0172BD8142C00ED15E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B8EE0182BD8142C00ED15E6 /* Build configuration list for PBXNativeTarget "Kaspi Logo Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8EE0192BD8142C00ED15E6 /* Debug */,
+				0B8EE01A2BD8142C00ED15E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B8EE01B2BD8142C00ED15E6 /* Build configuration list for PBXNativeTarget "Kaspi Logo DetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8EE01C2BD8142C00ED15E6 /* Debug */,
+				0B8EE01D2BD8142C00ED15E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B8EE01E2BD8142C00ED15E6 /* Build configuration list for PBXNativeTarget "Kaspi Logo DetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8EE01F2BD8142C00ED15E6 /* Debug */,
+				0B8EE0202BD8142C00ED15E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B8EDFE62BD8142B00ED15E6 /* Project object */;
+}
