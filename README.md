@@ -20,7 +20,15 @@ Kaspi Logo Detector App created using Swift.
 \
 I have trained CoreML model. Collected 63 images and labeled every single one of them.
 
-<img width="1466" alt="1" src="https://github.com/qonstant/tengri-news-clone/assets/98641240/24555f67-ee12-4155-9e97-fb72c8f7698f">
+<img width="1470" alt="ML Core object detection" src="https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/bec01058-e4b5-4433-931c-1e55d32d8d9e">
+
+<img width="1470" alt="Supervised Learning 1" src="https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/ec91a3a3-c122-45fd-ad1b-5d080a2ae69a">
+
+<img width="1470" alt="Supervised Learning 2" src="https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/c52e5aeb-23af-461d-8d74-9630e0645c41">
+
+<img width="1470" alt="Image Processing" src="https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/86395693-b840-4437-8826-d28dbe27c337">
+
+<img width="1470" alt="Training" src="https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/d529ab46-ea3c-4397-a31f-3fa37abb960d">
 
 ### &#9745;Second requirement:
 
@@ -28,6 +36,10 @@ I have trained CoreML model. Collected 63 images and labeled every single one of
 
 \
 Users can upload their images for object detection. The app will predict and show its confidence level below.
+
+![IMG_1476](https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/7e68da5d-8126-4b96-8151-42f43fcb55ec){:height="50%" width="50%"}
+![IMG_1477](https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/1fa8ab6d-2b40-435a-925d-1b0ae2d828eb){:height="50%" width="50%"}
+
 
 ### &#9745; Third requirement: 
 
@@ -37,6 +49,8 @@ Users can upload their images for object detection. The app will predict and sho
 I have created a button with a link to the email, thanks to which users can send new data for training the model. Since it's not possible to realize transfer learning in this case, we will have to train the model from the beginning, and it will take a couple of hours.
 
 \
-<img width="1280" alt="2_1" src="https://github.com/qonstant/tengri-news-clone/assets/98641240/f11b6eb9-963c-4d1e-a443-bea41916099d">
+![IMG_1478](https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/9a303299-5ec7-4522-8816-f8b8f39f9830){:height="50%" width="50%"}
+![IMG_1479](https://github.com/qonstant/KaspiLogoDetectorApp/assets/98641240/01ed1513-fbf7-4051-8cb5-eaabee0c2bb9){:height="50%" width="50%"}
+
 
 
